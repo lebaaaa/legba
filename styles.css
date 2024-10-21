@@ -1,7 +1,9 @@
 
 
 
-
+html {
+    background-image:linear-gradient(to bottom right,rgb(79, 0, 206)20%,rgb(31, 19, 141),rgb(28, 80, 156));
+}
 
 h1 {
     color:rgba(255, 251, 0, 0.993);
@@ -47,7 +49,7 @@ h1 {
     width: 100px;
     height: 50px;
     border-radius: 15px;
-    
+    transition: opacity 0.2s; 
 }
 
 .subscribe-button:hover {
@@ -59,16 +61,12 @@ h1 {
     color: red;
 }
 
-html {
-    background-image:linear-gradient(to bottom right,rgb(79, 0, 206)20%,rgb(31, 19, 141),rgb(28, 80, 156));
-}
-
 .click-me {
     cursor: pointer;
     font-family: 'Bebas Neue',sans-serif;
     font-size: 14px;
     text-align: center;
-    background-color:rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
     border: 2px;
     width: 100px;
     height: 50px;
@@ -76,16 +74,44 @@ html {
     border-radius: 17px;
     position: relative;
     left: 200px;
-    bottom: 455px;
+    bottom: 760px;
+    transition: background-image 1s, color 0.5s;
+    
 }
 
 .click-me:hover {
     background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZFhGnSYzoiOqKXj3q9-9lh_J5tu1r9DP5kA&s');
-    background-position:100%;
+    background-position: 100%;
     background-size: 100%;
     color: black;
 }
 
-.hr {
 
+.image {
+    width: 30%;
+    text-align: center;
+    position: fixed;
+    bottom: 0px;
+    right:0;
+    background-color: white;
+
+}
+
+.ad {
+    width: 20%;
+    box-shadow: 3px 3px 10px rgb(0, 0, 0);
+    margin-bottom: 10px;
+    background-color: green;
+}
+
+.ad:hover {
+    background-image:  url('https://cdn.discordapp.com/attachments/721602848655278111/1297559592745566259/images.png?ex=67165e0a&is=67150c8a&hm=d8ad80bb084df8ef327e129d1ff1b38fb45c2b399e304e9213141505ef865b95&' );
+    background-position: 100%;
+    background-size: 60%;
+    background-repeat: repeat;
+    cursor:pointer;
+}
+
+.video-wynn {
+    margin-left: 45%;
 }
