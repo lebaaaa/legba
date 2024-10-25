@@ -1,46 +1,44 @@
-
-
-
 html {
-    background-image:linear-gradient(to bottom right,rgb(79, 0, 206)20%,rgb(31, 19, 141),rgb(28, 80, 156));
+    background-image: linear-gradient(to bottom right, rgb(79, 0, 206)20%, rgb(31, 19, 141), rgb(28, 80, 156));
+
 }
 
 h1 {
-    color:rgba(255, 251, 0, 0.993);
+    color: rgba(255, 251, 0, 0.993);
     font-size: 50px;
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    border-radius:23px;
-    width:30%;
+    border-radius: 23px;
+    width: 30%;
     position: relative;
-    left:35%;
-    background-image: repeating-linear-gradient(to bottom right, rgb(0,0,255),rgb(0,139,255), rgb(0,180,255) )
- }
+    left: 35%;
+    background-image: repeating-linear-gradient(to bottom right, rgb(0, 0, 255), rgb(0, 139, 255), rgb(0, 180, 255))
+}
 
 .p2 {
     color: rgba(0, 255, 234, 0.993);
     font-size: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color:rgba(0, 140, 255, 0.938);
+    background-color: rgba(0, 140, 255, 0.938);
     text-align: center;
     width: 100%;
-    
+
 }
 
 .p3 {
-    color:rgb(151, 250, 253);
-    background-image: radial-gradient(rgb(96, 170, 255),rgb(27, 87, 255));
-    width:400px;
+    color: rgb(151, 250, 253);
+    background-image: radial-gradient(rgb(96, 170, 255), rgb(27, 87, 255));
+    width: 400px;
     border-radius: 1em;
     text-align: center;
     text-transform: Uppercase;
     font-family: Arial, Helvetica, sans-serif;
-    
+
 }
 
 .subscribe-button {
-    cursor: pointer;    
-    font-family: 'Bebas Neue',sans-serif;
+    cursor: pointer;
+    font-family: 'Bebas Neue', sans-serif;
     font-size: 14px;
     text-align: center;
     background-color: red;
@@ -49,41 +47,36 @@ h1 {
     width: 100px;
     height: 50px;
     border-radius: 15px;
-    transition: opacity 0.2s; 
+    transition: opacity 0.2s;
+
 }
 
 .subscribe-button:hover {
     opacity: 0.8;
+
 }
 
 .subscribe-button:active {
-    background-color:#ffffff;
+    background-color: #ffffff;
     color: red;
+
 }
 
 .click-me {
-    cursor: pointer;
-    font-family: 'Bebas Neue',sans-serif;
-    font-size: 14px;
-    text-align: center;
-    background-color: rgb(0, 0, 0);
-    border: 2px;
-    width: 100px;
-    height: 50px;
-    color: white;
-    border-radius: 17px;
+    background-color: red;
     position: relative;
-    left: 200px;
-    bottom: 760px;
-    transition: background-image 1s, color 0.5s;
-    
+    bottom: 700px;
+    left: 195px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
 }
 
+
 .click-me:hover {
-    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZFhGnSYzoiOqKXj3q9-9lh_J5tu1r9DP5kA&s');
-    background-position: 100%;
-    background-size: 100%;
-    color: black;
+    background-color: black;
 }
 
 
@@ -92,7 +85,7 @@ h1 {
     text-align: center;
     position: fixed;
     bottom: 0px;
-    right:0;
+    right: 0;
     background-color: white;
 
 }
@@ -102,16 +95,19 @@ h1 {
     box-shadow: 3px 3px 10px rgb(0, 0, 0);
     margin-bottom: 10px;
     background-color: green;
+
 }
 
 .ad:hover {
-    background-image:  url('https://cdn.discordapp.com/attachments/721602848655278111/1297559592745566259/images.png?ex=67165e0a&is=67150c8a&hm=d8ad80bb084df8ef327e129d1ff1b38fb45c2b399e304e9213141505ef865b95&' );
+    background-image: url('https://cdn.discordapp.com/attachments/721602848655278111/1297559592745566259/images.png?ex=67165e0a&is=67150c8a&hm=d8ad80bb084df8ef327e129d1ff1b38fb45c2b399e304e9213141505ef865b95&');
     background-position: 100%;
     background-size: 60%;
     background-repeat: repeat;
-    cursor:pointer;
+    cursor: pointer;
+
 }
 
 .video-wynn {
     margin-left: 45%;
+
 }
